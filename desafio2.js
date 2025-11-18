@@ -25,12 +25,15 @@ function saldoDeVitorias(vitorias, derrotas) {
     }
 
     // Imprime informações no console
-    console.log(`O Herói tem de saldo de:${saldoVitorias}, e está no nível ${nivel}!`);
+    console.log(`O Herói tem de saldo de ${saldoVitorias} vitórias, e está no nível ${nivel}!`);
 
     return { vitorias, derrotas, saldoVitorias, nivel };
 }
 
 saldoDeVitorias(vitorias, derrotas);
+
+console.log('-----------------------------------');
+
 
 // VERSÃO APRIMORADO DO CÓDIGO
 //O Código abaixo, calcula o saldo de vitórias de um herói em um jogo e classifica seu nível com base nesse saldo.
@@ -72,4 +75,4 @@ for (let i = 1; i <= vitorias; i++) {
     }
 }
 
-console.log(`O Herói terminou com saldo de: ${vitorias - derrotas}, e está no nível ${obterNivel(vitorias - derrotas)}!`);
+console.log(`O Herói terminou com saldo de ${vitorias - derrotas} vitórias, e está no nível ${obterNivel(vitorias - derrotas)}!`);
