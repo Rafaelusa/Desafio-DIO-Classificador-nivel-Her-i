@@ -24,7 +24,7 @@ const n = parseInt(gets());
 let totalTransacoes = 0;
 
 // TODO: Implemente um loop que vai se repetir 'n' vezes, para ler e somar cada transação.
-for (let totalTransacoes; i = 0; i < n; i++) {
+for (let i = 0; i < n; i++) {
     // Lê a próxima linha da entrada, converte para número inteiro e adiciona ao total de transações.
     totalTransacoes += parseInt(gets());
 }
