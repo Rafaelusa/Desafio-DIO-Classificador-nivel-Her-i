@@ -14,22 +14,26 @@ class Heroi {
         // Utilização de switch (operador de controle)
         switch (this.tipo) {
             case 'mago🧙‍♂️':
-                ataque = 'usou magia 🪄.';
+                ataque = 'magia 🪄.';
                 break;
             case 'guerreiro🗡️':
-                ataque = 'usou espada ⚔️.';
+                ataque = 'espada ⚔️.';
                 break;
             case 'monge🥋':
-                ataque = 'usou artes marciais 🤼‍♂️.';
+                ataque = 'artes marciais 🤼‍♂️.';
                 break;
             case 'ninja🥷':
-                ataque = 'usou shuriken 💫.';
+                ataque = 'shuriken 💫.';
                 break;
             default:
-                ataque = 'atacou de forma desconhecida.';
+                ataque = 'de forma desconhecida.';
         }
-        // Utilização de template string (variáveis)
-        console.log(`O ${this.tipo} ${this.nome}, herói de ${this.idade} anos, atacou usando ${ataque}`);
+        if(this.tipo !== 'saiyajin🐵') {
+            // Utilização de template string (variáveis)
+            console.log(`O ${this.tipo} ${this.nome}, herói de ${this.idade} anos, atacou usando ${ataque}`);
+        } else {
+            console.log(`O ${this.tipo} ${this.nome}, herói de ${this.idade} anos, atacou ${ataque}`);
+        }
     }
 }
 

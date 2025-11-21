@@ -62,4 +62,4 @@ node desafio3.js
 ```
 
 - Saída:
-  -`O saiyajin 🐵 Goku, herói de 45 anos, atacou usando atacou de forma desconhecida.`
+  -`O saiyajin🐵 Goku, herói de 45 anos, atacou usando de forma desconhecida.`
