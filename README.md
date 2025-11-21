@@ -45,3 +45,21 @@ Exemplo de uso (saída esperada):
 
 - Saída:
   -`O Herói tem de saldo de 107 vitórias, e está no nível Imortal 🔥!`
+
+# 3️⃣ Escrevendo as classes de um Jogo
+
+Arquivos:
+-desafio3.js;
+-desafio3.md;
+
+Como executar:
+
+1. Abra um terminal no diretório do projeto (ex: `d:\Projetos\Desafio-DIO-Classificador-nivel-Her-i`).
+2. Execute:
+
+```powershell
+node desafio3.js
+```
+
+- Saída:
+  -`O saiyajin 🐵 Goku, herói de 45 anos, atacou usando atacou de forma desconhecida.`
