@@ -1,4 +1,4 @@
-# Classificador de nível de Herói (Desafio 1)
+# 1️⃣ Classificador de nível de Herói (Desafio 1)
 
 Arquivos: 
 -desafio.js;
@@ -26,7 +26,7 @@ Exemplo de uso (entrada e saída esperada):
 Observações:
 - O script aceita números com `.` ou `,` como separador de milhares (ex: `6.500` ou `6,500`).
 
-# Calculadora de partidas Rankeadas (Desafio 2)
+# 2️⃣ Calculadora de partidas Rankeadas (Desafio 2)
 
 Arquivos:
 -desafio2.js;
@@ -46,7 +46,7 @@ Exemplo de uso (saída esperada):
 - Saída:
   -`O Herói tem de saldo de 107 vitórias, e está no nível Imortal 🔥!`
 
-# 3️⃣ Escrevendo as classes de um Jogo
+# 3️⃣ Escrevendo as classes de um Jogo (Desafio 3)
 
 Arquivos:
 -desafio3.js;
